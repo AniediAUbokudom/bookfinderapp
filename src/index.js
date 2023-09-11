@@ -1,13 +1,21 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/homePage';
+import BooksPage from "./Components/booksPage";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Router>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/books/:searchId" element={<BooksPage/>} />
+      </Routes>
+    </Router>
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMod
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,17 +1,18 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
-import Main from "./Components/Main";
-import Button from "./Components/Button";
-import CoverImage from "./Components/CoverImage";
+import Home from './Components/homePage';
+import booksPage from "./Components/booksPage";
 
 
 function App() {
   return (
-    <div className="App">
-      <Main />
-      <br></br>
-      <Button />
-      <CoverImage/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" component={Home} />
+        <Route path="/books/:id" component={booksPage} />
+      </Routes>
+    </Router>
   );
 }
 
