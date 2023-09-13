@@ -7,7 +7,7 @@ const Main = () => {
     inputValueChanged(e.target.value);
   }
   return (
-    <div className="head">
+    <div className="header">
       <div className="firstRow">
         <h1>Any World is Possible in a Book</h1>
       </div>
@@ -20,9 +20,6 @@ const Main = () => {
       <div className="myButton">
             <Link to="/books/github">Enter</Link>
         </div>
-      <div className="bookWorld">
-{/* <img src="./images/bookworld.jpg" /> */}
-      </div>
     </div>
   );
 };
