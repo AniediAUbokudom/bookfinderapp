@@ -58,3 +58,10 @@ e. Don't forget your API key:
      You will need to obtain an API key from the google developer console or any API provider and configure it in the app 
     for it to work properly. 
 
+Contact
+For any questions or inquiries about the Book Finder App, please contact:
+
+Aniedi Ubokudom
+Email: aniediaubokudom@gmail.com
+GitHub: https://github.com/AniediAUbokudom
+Thank you for using the Book Finder App! Happy reading! 📚✨
