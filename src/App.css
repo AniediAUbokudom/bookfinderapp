@@ -4,17 +4,18 @@ body {
   display: flex;
   justify-content: center;
   color: rgba(133, 46, 9, 0.847);
+  height: 100%;
+  width: 100%;
 }
-
-.header{
-  margin: 0;
-  padding:0;
+.coverPage{
+  margin: 1;
+  padding:1;
   font-family: 'cursive';
-}
 
+}
 .pageDesc{
   position: relative;
-  left:510px;
+  left:590px;
 } 
 .firstRow{
   position:relative;
@@ -24,13 +25,13 @@ body {
   position: relative;
   top: 15px;
   color:rgb(116, 117, 148);
-}
-                      
+}                      
 .searchField{
   position:relative;
   right: 20px;
   width: 100%;
   border-radius: 25px;
+  height: 30px;
 }
 button{
 padding: 2;

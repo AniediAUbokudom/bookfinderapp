@@ -9,7 +9,7 @@ const App = () => {
   };
   let searchLink = `/books/${inputValue}`;
   return (
-    <div className="header">
+    <div className="coverPage">
       <div className="pageDesc">
         <div className="firstRow">
           <h1>Any World is Possible in a Book</h1>
@@ -22,6 +22,7 @@ const App = () => {
             onChange={handleChange}
             value={inputValue}
             type="text"
+            placeholder="Author, Book Title, ISBN"
             // placeholder="What are you Reading?"
           />
           <Link to={searchLink}>
